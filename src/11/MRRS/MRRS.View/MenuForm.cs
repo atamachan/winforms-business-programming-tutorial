@@ -25,6 +25,14 @@ namespace MRRS.View
             }
         }
 
+        private void locationButton_Click(object sender, EventArgs e)
+        {
+            using (var form = new LocationListForm())
+            {
+                form.ShowDialog();
+            }
+        }
+
         private void closeButton_Click(object sender, EventArgs e)
         {
             Close();

@@ -52,6 +52,7 @@
     <Compile Include="EditMode.cs" />
     <Compile Include="MeetingRoomDetailModel.cs" />
     <Compile Include="MeetingRoomListModel.cs" />
+    <Compile Include="LocationListModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
