@@ -42,6 +42,7 @@
             this.locationButton.TabIndex = 0;
             this.locationButton.Text = "場所管理";
             this.locationButton.UseVisualStyleBackColor = true;
+            this.locationButton.Click += new System.EventHandler(this.locationButton_Click);
             // 
             // meetingRoomButton
             // 

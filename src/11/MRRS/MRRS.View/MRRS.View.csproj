@@ -56,6 +56,12 @@
       <DependentUpon>MeetingRoomDetailForm.cs</DependentUpon>
     </Compile>
     <Compile Include="MeetingRoomDetailValidator.cs" />
+    <Compile Include="LocationListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LocationListForm.Designer.cs">
+      <DependentUpon>LocationListForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="MeetingRoomListForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +81,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MeetingRoomListForm.resx">
       <DependentUpon>MeetingRoomListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LocationListForm.resx">
+      <DependentUpon>LocationListForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuForm.resx">
       <DependentUpon>MenuForm.cs</DependentUpon>
